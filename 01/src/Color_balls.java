@@ -3,9 +3,15 @@ import java.util.Random;
 import java.util.Scanner;
 //双色球
 public class Color_balls {
-    //随机在球池里面摇号
-    //balls———可选红球
-    //redBalls———选择完成的球存放的位置
+    //public static void binarySearch(int[] balls,int[] redBalls) {
+     //   Arrays.binarySearch(int[] redBalls,int n);
+
+    //}
+
+    /**随机在球池里面摇号
+     *balls———可选红球
+     *redBalls———选择完成的球存放的位置
+     */
     public static void computerSelection(int[] balls,int[] redBalls){
         Random r = new Random();
         for(int i=0;i<redBalls.length;i++){
